@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="27" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4964" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:28:00Z">
+    <groups>
+      <group name="regression">
+        <method signature="DeltaLoginUI.blank_first_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="blank_first_name" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.blank_lastname()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="blank_lastname" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.blank_username()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="blank_username" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.create_user()[pri:2, instance:com.DeltaLoginUI@56235b8e]" name="create_user" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.enter_invalid_confirm_password(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_confirm_password" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.enter_invalid_contact_number(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_contact_number" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.enter_invalid_email(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_email" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.enter_invalid_firstname(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_firstname" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.enter_invalid_lastname(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_lastname" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.enter_invalid_password(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_password" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.enter_invalid_username(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_username" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_confirm_password()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_confirm_password" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_email()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_email" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_first_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_first_name" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_last_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_last_name" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_password()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_password" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_username()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_username" class="com.DeltaLoginUI"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="DeltaLoginUI.create_user()[pri:2, instance:com.DeltaLoginUI@56235b8e]" name="create_user" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_confirm_password()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_confirm_password" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_email()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_email" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_first_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_first_name" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_last_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_last_name" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_password()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_password" class="com.DeltaLoginUI"/>
+        <method signature="DeltaLoginUI.valid_username()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_username" class="com.DeltaLoginUI"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="4964" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:28:00Z">
+      <class name="com.DeltaLoginUI">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="openBrowser" is-config="true" duration-ms="8215" started-at="2018-06-28T09:27:46Z" finished-at="2018-06-28T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="blank_first_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="blank_first_name" duration-ms="137" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_first_name -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="0" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="blank_lastname()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="blank_lastname" duration-ms="105" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_lastname -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="0" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="blank_username()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="blank_username" duration-ms="113" started-at="2018-06-28T09:27:55Z" finished-at="2018-06-28T09:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blank_username -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_confirm_password(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_confirm_password" duration-ms="70" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_confirm_password -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_confirm_password(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_confirm_password" duration-ms="115" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_confirm_password -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_contact_number(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_contact_number" duration-ms="79" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_contact_number -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_contact_number(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_contact_number" duration-ms="65" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_contact_number -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_email(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_email" duration-ms="68" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_email -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="0" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_email(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_email" duration-ms="73" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_email -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_firstname(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_firstname" duration-ms="67" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_firstname -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="8" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_firstname(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_firstname" duration-ms="76" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_firstname -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_lastname(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_lastname" duration-ms="76" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_lastname -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:56Z" finished-at="2018-06-28T09:27:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_lastname(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_lastname" duration-ms="72" started-at="2018-06-28T09:27:56Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_lastname -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_password(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_password" duration-ms="76" started-at="2018-06-28T09:27:57Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_password -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="0" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_password(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_password" duration-ms="93" started-at="2018-06-28T09:27:57Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_password -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_username(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_username" duration-ms="152" started-at="2018-06-28T09:27:57Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[q]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_username -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="0" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="enter_invalid_username(java.lang.String)[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="enter_invalid_username" duration-ms="82" started-at="2018-06-28T09:27:57Z" data-provider="data_invalid" finished-at="2018-06-28T09:27:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_invalid_username -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="valid_confirm_password()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_confirm_password" duration-ms="120" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_confirm_password -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="valid_email()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_email" duration-ms="110" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_email -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="valid_first_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_first_name" duration-ms="90" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_first_name -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="valid_last_name()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_last_name" duration-ms="74" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_last_name -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="valid_password()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_password" duration-ms="115" started-at="2018-06-28T09:27:57Z" finished-at="2018-06-28T09:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_password -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="2" started-at="2018-06-28T09:27:58Z" finished-at="2018-06-28T09:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="valid_username()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="valid_username" duration-ms="139" started-at="2018-06-28T09:27:58Z" finished-at="2018-06-28T09:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valid_username -->
+        <test-method status="PASS" signature="load_Object()[pri:0, instance:com.DeltaLoginUI@56235b8e]" name="load_Object" is-config="true" duration-ms="1" started-at="2018-06-28T09:27:58Z" finished-at="2018-06-28T09:27:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load_Object -->
+        <test-method status="PASS" signature="create_user()[pri:2, instance:com.DeltaLoginUI@56235b8e]" name="create_user" duration-ms="1982" started-at="2018-06-28T09:27:58Z" finished-at="2018-06-28T09:28:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_user -->
+      </class> <!-- com.DeltaLoginUI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
