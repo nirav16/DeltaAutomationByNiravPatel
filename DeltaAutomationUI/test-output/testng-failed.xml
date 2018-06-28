@@ -2,32 +2,34 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
-    <groups>
-      <run>
-        <include name="regression"/>
-        <include name="sanity"/>
-      </run>
-    </groups>
     <classes>
       <class name="com.DeltaLoginUI">
         <methods>
           <include name="valid_last_name"/>
+          <include name="blank_confirm_password"/>
           <include name="create_user"/>
-          <include name="enter_invalid_contact_number" invocation-numbers="0 1"/>
-          <include name="valid_first_name"/>
-          <include name="enter_invalid_email" invocation-numbers="0 1"/>
-          <include name="enter_invalid_lastname" invocation-numbers="0 1"/>
-          <include name="valid_email"/>
+          <include name="enter_invalid_contact_number"/>
           <include name="valid_confirm_password"/>
+          <include name="openBrowser"/>
           <include name="valid_username"/>
-          <include name="enter_invalid_firstname" invocation-numbers="0 1"/>
-          <include name="valid_password"/>
-          <include name="enter_invalid_confirm_password" invocation-numbers="0 1"/>
-          <include name="blank_lastname"/>
+          <include name="enter_invalid_firstname"/>
+          <include name="blank_email"/>
           <include name="blank_username"/>
+          <include name="enter_invalid_username"/>
+          <include name="closedBrowser"/>
+          <include name="load_Object"/>
+          <include name="valid_first_name"/>
+          <include name="enter_invalid_email"/>
+          <include name="enter_invalid_lastname"/>
+          <include name="valid_email"/>
+          <include name="beforeTest"/>
+          <include name="valid_password"/>
+          <include name="blank_password"/>
+          <include name="enter_invalid_confirm_password"/>
+          <include name="blank_lastname"/>
           <include name="blank_first_name"/>
-          <include name="enter_invalid_username" invocation-numbers="0 1"/>
-          <include name="enter_invalid_password" invocation-numbers="0 1"/>
+          <include name="enter_invalid_password"/>
+          <include name="afterTest"/>
         </methods>
       </class> <!-- com.DeltaLoginUI -->
     </classes>

@@ -1,6 +1,7 @@
 package utils;
 
-        import java.io.FileInputStream;
+        import java.io.File;
+import java.io.FileInputStream;
 		import java.io.FileNotFoundException;
 		import java.io.FileOutputStream;
 		import java.io.IOException;
@@ -20,8 +21,12 @@ package utils;
 
 		   String[][] tabArray = null;
 		   try {
+			   File files = new File(FilePath);
+			   String propertyFilePath = files.getAbsolutePath();
+			   String filepath = propertyFilePath.replaceAll("DataExcel.xlsx", "");
+			   String finalPropertypath = (filepath + "\\src\\test\\java\\com\\DataProvider\\DataExcel.xlsx") ;
 			   System.out.println("the sheetname recieved is " +SheetName);
-			   FileInputStream ExcelFile = new FileInputStream(FilePath);
+			   FileInputStream ExcelFile = new FileInputStream(finalPropertypath);
 			   // Access the required test data sheet
 			   ExcelWBook = new XSSFWorkbook(ExcelFile);
 			   ExcelWSheet = ExcelWBook.getSheet(SheetName);

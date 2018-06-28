@@ -17,6 +17,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -41,14 +42,22 @@ public class DeltaLoginUI {
   
   @BeforeSuite (groups={"sanity","regression"})
   public void openBrowser() {
-	  System.setProperty("webdriver.gecko.driver", "C://Users//niravni//eclipse-workspace//geckodriver-v0.20.1-win64//geckodriver.exe");
+	  File files = new File("geckodriver.exe");
+	  String propertyFilePath = files.getAbsolutePath();
+	  String filepath = propertyFilePath.replaceAll("geckodriver.exe", "");
+	  String finalPropertypath = (filepath + "\\exe\\geckodriver.exe") ;
+	  System.setProperty("webdriver.gecko.driver", finalPropertypath);
 		driver = new FirefoxDriver();
 		driver.get("http://adjiva.com/qa-test/");
   }
   
   @BeforeMethod (groups={"sanity","regression"})
   public void load_Object() throws IOException  {
-	  FileReader reader = new FileReader("C:\\Users\\niravni\\eclipse-workspace\\DeltaAutomationUI\\src\\test\\java\\com\\objectRepository\\application.properties");
+	  File files = new File("application.properties");
+	  String propertyFilePath = files.getAbsolutePath();
+	  String filepath = propertyFilePath.replaceAll("application.properties", "");
+	  String finalPropertypath = (filepath + "\\src\\test\\java\\com\\objectRepository\\application.properties") ;
+	  FileReader reader = new FileReader(finalPropertypath);
 	 // FileInputStream objfile = new FileInputStream(System.getProperty("C:\\Users\\niravni\\eclipse-workspace\\DeltaAutomationUI\\target\\test-classes\\com\\objectRepository\\application.properties"));	
 	  obj =  new Properties();
 	  obj.load(reader);  
@@ -300,7 +309,7 @@ public void enter_invalid_firstname(String s) {
   }
   @DataProvider
   public Object[][] data_invalid() throws Exception {
-	  Object[][] testObjArray = ExcelUtils.getTableArray("C:\\Users\\niravni\\eclipse-workspace\\DeltaAutomationUI\\src\\test\\java\\DataProvider\\DataExcel.xlsx","InvalidData");
+	  Object[][] testObjArray = ExcelUtils.getTableArray("DataExcel.xlsx","InvalidData");
 
       return (testObjArray);
     };

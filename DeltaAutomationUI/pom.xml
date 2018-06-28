@@ -51,7 +51,14 @@
         <groupId>org.apache.poi</groupId>
         <artifactId>poi-ooxml</artifactId>
         <version>3.17</version>
-    </dependency>	
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-firefox-driver -->
+	<dependency>
+    	<groupId>org.seleniumhq.selenium</groupId>
+    	<artifactId>selenium-firefox-driver</artifactId>
+    	<version>3.13.0</version>
+	</dependency>
+    	
 
 		<dependency>
 			<groupId>info.cukes</groupId>
