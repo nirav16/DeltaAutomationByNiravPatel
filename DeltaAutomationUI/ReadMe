@@ -1,0 +1,24 @@
+******************DeltaAutomationUI************************
+
+Download the project from Github. Maven will download the dependencies.
+To run the testng.xml from eclipse, one need to have testNg plugin in Eclipse.
+
+*****************************
+There are two class present in com as mention below:
+1. DeltaLoginUI.java which has whole logic to validation.
+2. ListenerDeltaUI.java which has the reporting part.
+
+*****************************
+Utils has two class mention below:
+1. ExcelUtils which reads the data from the excel file.
+2. ColorToHexa which converts the RGB color format to Hex Value.
+
+*****************************
+ObjectRepository contains following file:
+1. application.properties which is contains elements details.
+
+*****************************
+DataProvider contains following file:
+1. DataExcel which is used to provide input data.
+
+*****************************
